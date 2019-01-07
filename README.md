@@ -7,12 +7,20 @@ Hello all! Here you will find my Supplemental Instruction session materials for 
 
 ## Critical Info
 
-**Physics 40A:** Gen. Phys. I (Classical Mechanics)<br/>
 Stephen Iota<br/>
 `siota001@ucr.edu`<br/>
+Physics 40A: *Gen. Phys. I* (Classical Mechanics)<br/>
 [Syllabus](https://github.com/stepheniota/physics-40a-w19/blob/master/syllabus/2019w-p40a-syllabus.pdf)
+
+
+Feel free to contact me with any physics questions or suggestions.
 
 **SI Sessions**<br/>
 MW 4 -- 5 pm or MW 5 --6 pm in Skye 110<br/>
 **Lecture**<br/>
 Prof TBD; TR 12:40 -- 2 pm in Physics 2000
+
+
+## [References](https://github.com/stepheniota/physics-40a-w19/blob/master/references.md)
+
+[Here](https://github.com/stepheniota/physics-40a-w19/blob/master/references.md) are some possibly useful references to use when studying for this class.
