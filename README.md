@@ -21,6 +21,11 @@ MW 4 -- 5 pm or MW 5 --6 pm in Skye 110<br/>
 Prof TBD; TR 12:40 -- 2 pm in Physics 2000
 
 
+## Problem Sets
+
+Here you'll find selection of problems that were solved in SI Sessions
+- Week 1: [Motion in Physics](https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS1.pdf)
+
 ## [References](https://github.com/stepheniota/physics-40a-w19/blob/master/references.md)
 
 [Here](https://github.com/stepheniota/physics-40a-w19/blob/master/references.md) are some possibly useful references to use when studying for this class.
