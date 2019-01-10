@@ -7,7 +7,9 @@ I am simply recommending other resources I found useful and interesting when I w
 
 ## [Feynman Lectures Vol. I](http://www.feynmanlectures.caltech.edu/I_toc.html)
 
-
+To understand why studying physics is important
+- Chapter 1: Atoms in Motion
+- Chapter 2: Basic physics
 
 ## Doc Schuster on YouTube
 
