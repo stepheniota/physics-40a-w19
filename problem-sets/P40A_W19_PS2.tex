@@ -1,0 +1,142 @@
+% LaTeX2e Template by Stephen Iota (https://stepheniota.com/)
+% last updated: Jan. 2019
+
+% for papers
+%\documentclass[aps,onecolumn,superscriptaddress]{revtex4-1}
+% https://www-d0.fnal.gov/Run2Physics/WWW/templates/revtex4.pdf
+% https://cdn.journals.aps.org/files/revtex/auguide4-1.pdf
+% for revTeX4-1 class options
+
+% for other
+\documentclass[11pt]{article}
+\usepackage[margin=1.5cm]{geometry}
+
+%%%%%%%%%%%%%%%%
+%%% Packages %%%
+%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts} % to remove math font when typesetting equations
+\usepackage[thinc]{esdiff} 
+\usepackage{graphicx}
+\usepackage[shortlabels]{enumitem} % to change labels in enum/item
+\usepackage[dvipsnames]{xcolor} % for colored links
+
+% always put this at the end
+\usepackage[
+	colorlinks=true,
+	citecolor=green!50!black,
+	linkcolor=NavyBlue!75!black,
+	urlcolor=green!50!black,
+	hypertexnames=false]{hyperref} 
+
+ 
+ %%%%%%%%%%%%%%%%%%
+ %% New Commands %%
+ %%%%%%%%%%%%%%%%%%
+ 
+\newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
+
+\newcommand{\hint}[1]{\color{Blue}{#1}}
+ 
+%----------------------------------------------------
+%%%%%%%%%%%%%%%%%%
+%% Front Matter %%
+%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{gobble} % no page numbers
+\graphicspath{{figures/}} % set directory for figures
+%\usepackage{wrapfig}
+\setcounter{section}{-1} % start with section 0
+
+%%%%%%%%%%%%%
+%%% Title %%%
+%%%%%%%%%%%%%
+\begin{document}
+
+\begin{center}
+
+\Large{\textsc{Problem Set 2}: \textbf{Acceleration}}
+
+\end{center}
+
+\vspace{.5mm}
+
+
+%%%%%%%%%%
+%% INFO %%
+%%%%%%%%%%
+
+\begin{tabular}{rl}
+\textsc{SI Leader}:
+&
+Stephen Iota (\email{siota001@ucr.edu})
+\\
+\textsc{Course}:
+&
+Physics 40A (Winter 2019), Prof.~John Ellison
+\\
+\textsc{Date}:
+&
+14 -- 16 January 2019
+\end{tabular}
+
+%%%%%%%%%%%%%%
+%% PROBLEMS %%
+%%%%%%%%%%%%%%
+
+
+\section{Quiz}
+
+\begin{enumerate}[(a)]
+	\item What is the acceleration of free fall objects close to the earth's surface?
+	\vspace{-1mm}
+	\item You throw a rock straight down at the water from a bridge. It takes you 1.5 s to accelerate the rock to 25 m/s from rest, then it takes the rock 6 s to reach the water. Sketch a plot of the acceleration v time graph
+	\vspace{-1mm}
+	\item You are riding a bicycle heading due east. Can your acceleration vector ever point west? Explain why or why not.
+	\vspace{-1mm}
+\end{enumerate}
+
+
+
+\section{Rocket Launch}
+
+A rocket is launched straight up with constant acceleration. Four seconds after liftoff, a bolt falls off the side of the rocket. The bolt hits the ground 6.0 s later. 
+What was the rocket's acceleration?
+
+\section{Water Drops}
+
+Water drops fall from the edge of a roof at a steady rate. A fifth drop starts to fall just as the first drop hits the ground. At this instant, the second and third drops are exactly at the bottom and top edges of a 1.00 m tall window. How high is the edge of the roof?
+
+
+\section{Olympic Sprinters}
+
+A quite realistic model of Olympic sprinter's velocity in the 100 meter dash is given by 
+$$ v_x = b(1-e^{-ct}) $$
+where $b$ and $c$ are constants characteristic of the sprinter. We model Usain Bolt with $b$ = 11 m/s and $c$ = .6 s$^{-1}$.
+
+\begin{enumerate}[(a)]
+	\item What was Bolt's acceleration at $t$ = 0 s, 2 s, and 4 s?
+	\vspace{-1mm}
+	\item Find the expression for the distance traveled at time $t$.
+	\vspace{-1mm}
+	\item Your expression from part b is a transcendental equation, meaning you can't solve for $t$. However, it's not hard to use trial and error to find time needed to travel a specific distance. To the nearest 0.01 s, find the time Bolt needed to sprint 100.0 m. 
+\end{enumerate}
+
+
+\section{Challenge Problem}
+
+A rubber ball is shot straight up from the ground with speed $v_0$. Simultaneously, a second rubber ball at height $h$ directly above the first ball is dropped from rest. 
+
+\begin{enumerate}[(a)]
+	\item At what height above the ground do the balls collide?
+	\vspace{-1mm}
+	\item What is the max value of $h$ for which a collision occurs before the first ball falls back to the ground?
+	\vspace{-1mm}
+	\item For what value of $h$ does the collision occur at the instant when the first ball is at its highest point? 
+\end{enumerate}
+
+
+\end{document}
