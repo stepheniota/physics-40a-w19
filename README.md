@@ -25,7 +25,7 @@ Prof TBD; TR 12:40 -- 2 pm in Physics 2000
 
 Here you'll find selection of problems that were solved in SI Sessions
 - Week 1: [Motion in Physics](https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS1.pdf)
-- Week 2: [Acceleration](https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS2.pdf))
+- Week 2: [Acceleration](https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS2.pdf)
 
 ## [References](https://github.com/stepheniota/physics-40a-w19/blob/master/references.md)
 
