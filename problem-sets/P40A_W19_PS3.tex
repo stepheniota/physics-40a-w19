@@ -1,0 +1,122 @@
+% LaTeX2e Template by Stephen Iota (https://stepheniota.com/)
+% last updated: Jan. 2019
+
+% for papers
+%\documentclass[aps,onecolumn,superscriptaddress]{revtex4-1}
+% https://www-d0.fnal.gov/Run2Physics/WWW/templates/revtex4.pdf
+% https://cdn.journals.aps.org/files/revtex/auguide4-1.pdf
+% for revTeX4-1 class options
+
+% for other
+\documentclass[12pt]{article}
+\usepackage[margin=2cm]{geometry}
+
+%%%%%%%%%%%%%%%%
+%%% Packages %%%
+%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts} % to remove math font when typesetting equations
+\usepackage[thinc]{esdiff} 
+\usepackage{graphicx}
+\usepackage[shortlabels]{enumitem} % to change labels in enum/item
+\usepackage[dvipsnames]{xcolor} % for colored links
+
+% always put this at the end
+\usepackage[
+	colorlinks=true,
+	citecolor=green!50!black,
+	linkcolor=NavyBlue!75!black,
+	urlcolor=green!50!black,
+	hypertexnames=false]{hyperref} 
+
+ 
+ %%%%%%%%%%%%%%%%%%
+ %% New Commands %%
+ %%%%%%%%%%%%%%%%%%
+ 
+\newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
+
+\newcommand{\hint}[1]{\color{Blue}{#1}}
+ 
+%----------------------------------------------------
+%%%%%%%%%%%%%%%%%%
+%% Front Matter %%
+%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{gobble} % no page numbers
+\graphicspath{{figures/}} % set directory for figures
+%\usepackage{wrapfig}
+%\setcounter{section}{-1} % start with section 0
+
+%%%%%%%%%%%%%
+%%% Title %%%
+%%%%%%%%%%%%%
+\begin{document}
+
+\begin{center}
+
+\Large{\textsc{Week 3}: \textbf{Vectors}}
+
+\end{center}
+
+\vspace{.5mm}
+
+
+%%%%%%%%%%
+%% INFO %%
+%%%%%%%%%%
+
+\begin{tabular}{rl}
+\textsc{SI Leader}:
+&
+Stephen Iota (\email{siota001@ucr.edu})
+\\
+\textsc{Course}:
+&
+Physics 40A (Winter 2019), Prof.~John Ellison
+\\
+\textsc{Date}:
+&
+23 January 2019
+\end{tabular}
+
+%%%%%%%%%%%%%%
+%% PROBLEMS %%
+%%%%%%%%%%%%%%
+
+
+\section*{Review: Motion in 1D with Constant Acceleration}
+
+
+\begin{equation}
+	v(t) = v_i + at
+\end{equation}
+\begin{equation}
+	x(t) = x_i + v_it + \frac{1}{2}at
+\end{equation}
+\begin{equation}
+	v(t)^2 = v_{i}^2	 + 2a(x(t) - x_i)
+\end{equation}
+\begin{equation}
+	x(t) = x_i + \frac{1}{2}(v_i + v(t))t
+\end{equation}
+\begin{equation}
+	x(t) = x_i + v_i - \frac{1}{2}at^2
+\end{equation}
+
+Note: $x_i = x(t=0)$, and similarly for $v_i$.   
+
+
+\section{Vectors in Physics 40}
+
+
+\section{Optimal Throwing Angle}
+You'd like to throw a baseball as far as you can. Knowing what you know about vectors, determine at what angle you should throw the ball to have it travel the furthest distance. 
+
+
+
+
+\end{document}
