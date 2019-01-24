@@ -9,7 +9,8 @@
 
 % for other
 \documentclass[12pt]{article}
-\usepackage[margin=2cm]{geometry}
+\usepackage%[margin=2cm]
+{geometry}
 
 %%%%%%%%%%%%%%%%
 %%% Packages %%%
@@ -87,7 +88,7 @@ Physics 40A (Winter 2019), Prof.~John Ellison
 %% PROBLEMS %%
 %%%%%%%%%%%%%%
 
-
+\vspace{5mm}
 \section*{Review: Motion in 1D with Constant Acceleration}
 
 
@@ -95,6 +96,7 @@ Physics 40A (Winter 2019), Prof.~John Ellison
 	v(t) = v_i + at
 \end{equation}
 \begin{equation}
+\label{eq:2}
 	x(t) = x_i + v_it + \frac{1}{2}at
 \end{equation}
 \begin{equation}
@@ -104,18 +106,21 @@ Physics 40A (Winter 2019), Prof.~John Ellison
 	x(t) = x_i + \frac{1}{2}(v_i + v(t))t
 \end{equation}
 \begin{equation}
-	x(t) = x_i + v_i - \frac{1}{2}at^2
+	x(t) = x_i + v(t)t - \frac{1}{2}at^2
 \end{equation}
 
-Note: $x_i = x(t=0)$, and similarly for $v_i$.   
+Note: $x_i = x_0 = x(t=0)$; similarly $v_f = v(t=t_f)$.
 
 
-\section{Vectors in Physics 40}
+\vspace{5mm}
 
-
-\section{Optimal Throwing Angle}
-You'd like to throw a baseball as far as you can. Knowing what you know about vectors, determine at what angle you should throw the ball to have it travel the furthest distance. 
-
+\section{Optimize Throwing Distance.}
+I'd like to throw a ball as far as I can in the $\hat{x}$ direction. At what angle $\phi$ should I ``launch'' the ball to maximize its distance traveled? Use $v_0$ as the magnitude of the ball's initial velocity.
+\\
+\\
+\noindent
+\textsc{Hint:}
+Use eq \ref{eq:2} to write down the ball's motion in both the $\hat{x} \ \mathrm{and} \ \hat{y}$ direction. Then solve for the ball's time of flight as a function of your launch angle, i.e. $t_f(\phi)$.
 
 
 
