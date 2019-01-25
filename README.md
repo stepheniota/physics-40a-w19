@@ -12,18 +12,16 @@ Stephen Iota<br/>
 Physics 40A: *Gen. Phys. I* (Classical Mechanics)<br/>
 [Syllabus](https://github.com/stepheniota/physics-40a-w19/blob/master/syllabus/2019w-p40a-syllabus.pdf)
 
-
-Feel free to contact me with any physics questions or suggestions.
-
 **SI Sessions**<br/>
 MW 4 -- 5 pm or MW 5 --6 pm in Skye 110<br/>
 **Lecture**<br/>
-Prof TBD; TR 12:40 -- 2 pm in Physics 2000
+Prof Ellison; TR 12:40 -- 2 pm in Physics 2000
 
+Feel free to contact me with any physics questions!
 
 ## Problem Sets
 
-Here you'll find selection of problems that were solved in SI Sessions
+Here you'll find selection of problems that were solved during my SI Sessions.
 - Week 1: [Motion in Physics](https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS1.pdf)
 - Week 2: [Acceleration](https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS2.pdf)
 - Week 3: [Vectors]((https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS3.pdf))
