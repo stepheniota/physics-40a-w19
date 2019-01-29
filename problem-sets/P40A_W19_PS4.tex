@@ -1,0 +1,148 @@
+% LaTeX2e Template by Stephen Iota (https://stepheniota.com/)
+% last updated: Jan. 2019
+
+% for papers
+%\documentclass[aps,onecolumn,superscriptaddress]{revtex4-1}
+% https://www-d0.fnal.gov/Run2Physics/WWW/templates/revtex4.pdf
+% https://cdn.journals.aps.org/files/revtex/auguide4-1.pdf
+% for revTeX4-1 class options
+
+% for other
+\documentclass[10pt]{article}
+\usepackage[margin=2cm]
+{geometry}
+
+%%%%%%%%%%%%%%%%
+%%% Packages %%%
+%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts} % to remove math font when typesetting equations
+\usepackage[thinc]{esdiff} 
+\usepackage{graphicx}
+\usepackage[shortlabels]{enumitem} % to change labels in enum/item
+\usepackage[dvipsnames]{xcolor} % for colored links
+
+% always put this at the end
+\usepackage[
+	colorlinks=true,
+	citecolor=green!50!black,
+	linkcolor=NavyBlue!75!black,
+	urlcolor=green!50!black,
+	hypertexnames=false]{hyperref} 
+
+ 
+ %%%%%%%%%%%%%%%%%%
+ %% New Commands %%
+ %%%%%%%%%%%%%%%%%%
+ 
+\newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
+
+\newcommand{\hint}[1]{\color{Blue}{#1}}
+ 
+%----------------------------------------------------
+%%%%%%%%%%%%%%%%%%
+%% Front Matter %%
+%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{gobble} % no page numbers
+\graphicspath{{figures/}} % set directory for figures
+%\usepackage{wrapfig}
+\setcounter{section}{-1} % start with section 0
+
+%%%%%%%%%%%%%
+%%% Title %%%
+%%%%%%%%%%%%%
+\begin{document}
+
+\begin{center}
+
+\Large{\textsc{Week 4}: \textbf{Kinematics in 2D}}
+
+\end{center}
+
+\vspace{.5mm}
+
+
+%%%%%%%%%%
+%% INFO %%
+%%%%%%%%%%
+
+\begin{tabular}{rl}
+\textsc{SI Leader}:
+&
+Stephen Iota (\email{siota001@ucr.edu})
+\\
+\textsc{Course}:
+&
+Physics 40A (Winter 2019), Prof.~Ellison
+\\
+\textsc{Date}:
+&
+28 January 2019
+\end{tabular}
+
+%%%%%%%%%%%%%%
+%% PROBLEMS %%
+%%%%%%%%%%%%%%
+
+
+\section{Getting Comfortable with Vectors}
+\begin{equation*}
+	\mathbf{A} = 9 \hat{x} + 18 \hat{y} + 27 \hat{z}
+\end{equation*}
+\begin{equation*}
+	\mathbf{B} = 3 \hat{x} - 4 \hat{y} + 5 \hat{z}
+\end{equation*}
+\begin{equation*}
+	\mathbf{C} =  10 \hat{y} + 4 \hat{z}
+\end{equation*}
+
+\begin{enumerate}[(a)]
+	\item Can I add a vector and a scalar together?
+	\item Compute $\mathbf{D} = \mathbf{A} - \mathbf{B} + \frac{1}{2}\mathbf{C}$.
+	\item Find the magnitudes of the vectors $\mathbf{A}, \mathbf{B}, \ \mathrm{and} \ \mathbf{C}.$
+	\item Write $\mathbf{C}$ as a linear combination of $\mathbf{A} \ \mathrm{and} \ \mathbf{B}$, i.e. $ \mathbf{C} = \alpha\mathbf{A} + \beta\mathbf{B}.$
+
+\end{enumerate}
+
+\section{Lost at Sea}
+A captain and his ship leave harbor A at $v_0= 20$ m/s, traveling due north towards harbor B, which is 72 km away. 30 min into the voyage, a strong wind in the E direction blows at $v_{\mathrm{wind}} = 5$ m/s. The captain and his crew did not adjust their course to correct for the wind, end up getting lost at sea, and do not reach their destination. 
+\\
+\textsc{Note:} Assume the shores are infinite straight lines in the EW direction, and ignore water resistance and drag.
+
+\begin{enumerate}[(a)]
+	\item How long would it have taken the ship to cross from harbor A to B if there was no wind?	
+	\item How long does their journey end up taking? Assume harbor B lies along a straight, infinite coast in the EW direction.
+	\item How far east from harbor B does the ship end up? 
+	\item At what angle should have the captain and his have steered in when the wind started to arrive at harbor B? 
+\end{enumerate}
+
+
+\section{Circular Motion}
+\begin{enumerate}[(a)]
+
+\item When working with uniform circular motion, we can describe motion in 2D with 1 independent variable. How do we do this?
+\item What is the relation between tangential velocity $v_\mathrm{t}$ and angular velocity $\omega$?
+\item How do we express angular acceleration in terms of velocity? What about $\omega$?	
+
+\end{enumerate}
+
+
+\section{Cyclotron Frequency}
+
+Electrons in a constant, transverse Magnetic field undergo centripetal acceleration. If an electron has a period of oscillation $T = 2 \ \mathrm{ms}$ and a radius of orbit of $r = 6 \ \mu\mathrm{m}.$ Find:
+\begin{enumerate}[(a)]
+	\item the electron's frequency\footnote{\url{https://en.wikipedia.org/wiki/Electron_cyclotron_resonance}} $\omega$ of oscillation
+	\item the electron's speed $v$
+	\item and the magnitude of it's acceleration $a$.
+\end{enumerate}
+
+
+\noindent
+Notice that the electron's speed is a constant! If you think this is interesting, look into (a) Work and (b) conservative v non-conservative vector fields on Wiki.
+
+
+\end{document}
