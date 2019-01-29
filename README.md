@@ -25,6 +25,7 @@ Here you'll find selection of problems that were solved during my SI Sessions.
 - Week 1: [Motion in Physics](https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS1.pdf)
 - Week 2: [Acceleration](https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS2.pdf)
 - Week 3: [Vectors](https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS3.pdf)
+- Week 4: [Kinematics in 2D](./problem-sets/P40A_W19_PS4.pdf)
 
 
 [Here](https://github.com/stepheniota/physics-40a-w19/blob/master/references.md) are some possibly useful references to use when studying for this class.
