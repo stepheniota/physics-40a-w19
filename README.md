@@ -27,7 +27,7 @@ Here you'll find selection of problems that were solved during my SI Sessions.
 - PSet 3: [Vectors](https://github.com/stepheniota/physics-40a-w19/blob/master/problem-sets/P40A_W19_PS3.pdf)
 - PSet 4: [Kinematics in 2D](./problem-sets/P40A_W19_PS4.pdf)
 - PSet 4b: [Introducing Newton's Laws](./problem-sets/P40A_W19_PS4b.pdf)
-
+- PSet 5: [Newton's 3rd Law](./problem-sets/P40A_W19_PS5.pdf)
 
 
 
