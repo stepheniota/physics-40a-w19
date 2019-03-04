@@ -1,0 +1,124 @@
+% LaTeX2e Template by Stephen Iota (https://stepheniota.com/)
+% last updated: Jan. 2019
+
+% for papers
+%\documentclass[aps,onecolumn,superscriptaddress]{revtex4-1}
+% https://www-d0.fnal.gov/Run2Physics/WWW/templates/revtex4.pdf
+% https://cdn.journals.aps.org/files/revtex/auguide4-1.pdf
+% for revTeX4-1 class options
+
+% for other
+\documentclass[12pt]{article}
+\usepackage[margin=3cm]{geometry}
+
+%%%%%%%%%%%%%%%%
+%%% Packages %%%
+%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts} % \mathrm{ }
+\usepackage{physics} %http://ftp.math.purdue.edu/mirrors/ctan.org/macros/latex/contrib/physics/physics.pdf
+\usepackage[thinc]{esdiff} % easy derivatives
+\usepackage{graphicx} % \includegraphics{ }
+\usepackage[shortlabels]{enumitem} % change labels in enum/item
+\usepackage[dvipsnames]{xcolor} % colored links=
+%\usepackage{footmisc} % http://mirror.utexas.edu/ctan/macros/latex/contrib/footmisc/footmisc.pdf
+\usepackage[small]{titlesec} % [small,medium,big] << controls size of *section text
+%\usepackage{fancyhdr} %http://tug.ctan.org/tex-archive/macros/latex/contrib/fancyhdr/fancyhdr.pdf
+% always put this at the end
+\usepackage[
+	colorlinks=true,
+	citecolor=green!50!black,
+	linkcolor=NavyBlue!75!black,
+	urlcolor=green!50!black,
+	hypertexnames=false]{hyperref}
+
+ 
+ %%%%%%%%%%%%%%%%%%
+ %% New Commands %%
+ %%%%%%%%%%%%%%%%%%
+ 
+\newcommand{\email}[1]{\texttt{\href{mailto:#1}{#1}}}
+
+\newcommand{\hint}[1]{\color{Blue}{#1}}
+ 
+%----------------------------------------------------
+%%%%%%%%%%%%%%%%%%
+%% Front Matter %%
+%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{gobble} % no page numbers
+\graphicspath{{figures/}} % set directory for figures
+%\usepackage{wrapfig}
+%\setcounter{section}{-1} % start with section 0
+
+%%%%%%%%%%%%%
+%%% Title %%%
+%%%%%%%%%%%%%
+\begin{document}
+
+\begin{center}
+
+\Large{\textsc{Problem Set 7}: \textbf{Impulse and Momentum}}
+\end{center}
+\vspace{.5mm}
+
+
+%%%%%%%%%%
+%% INFO %%
+%%%%%%%%%%
+
+\begin{tabular}{rl}
+\textsc{SI Leader}:
+&
+Stephen Iota (\email{siota001@ucr.edu})
+\\
+\textsc{Course}:
+&
+Physics 40A (Winter 2019), Prof.~Ellison
+\\
+\textsc{Date}:
+&
+\today
+\end{tabular}
+
+%%%%%%%%%%%%%%
+%% PROBLEMS %%
+%%%%%%%%%%%%%%
+
+
+\section{Conceptual Questions}
+
+\begin{enumerate}[(a)]
+	\item What is an impulse? Write down its general definition. How is it related to momentum?
+	\item What is the difference between a perfectly elastic and perfectly inelastic collision? What are the conditions necessary for each to occur?
+
+\end{enumerate}
+
+
+\section{Recoil}
+
+A 10 g bullet is fired from a 3.0 kg rifle with a speed of 500 m/s. What is the recoil speed of the rifle?
+
+
+\section{Radioactivity}
+
+A $^{238}$U uranium nucleus is radioactive. It spontaneously disintegrates into a small fragment that is ejected with a measured speed of 1.50e7 m/s and a ``daughter nucleus'' that recoils with a measured speed of 2.56e5 m/s. What are the atomic masses of the ejected fragment and the daughter nucleus? 
+
+
+\section{Mechanical Energy Loss}
+A 50 g ball of clay traveling at speed $v_0$ hits and sticks to a 1.0 kg brick sitting at rest on a frictionless surface.
+
+\begin{enumerate}[(a)]
+	\item What is the speed of the brick after the collision?
+	\item What percentage of the mechanical energy is lost in this collision?
+\end{enumerate}
+
+
+\section{Rocket Science}
+A rocket in deep space has an exhaust speed of 2000 m/s. When the rocket is fully loaded, the mass of the fuel is five times the mass of the empty rocket. What is the rocket's speed when half the fuel has been burned? 
+
+
+\end{document}
