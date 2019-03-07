@@ -29,7 +29,8 @@ Here you'll find selection of problems that were solved during my SI Sessions.
 - PSet 4b: [Introducing Newton's Laws](./problem-sets/P40A_W19_PS4b.pdf)
 - PSet 5: [Newton's 3rd Law](./problem-sets/P40A_W19_PS5.pdf)
 - PSet 6: [Energy](./problem-sets/P40A_W19_PS6.pdf)
-
+- PSet 7: [Impulse and Momentum](./problem-sets/P40A_W19_PS7.pdf)
+- PSet 8: [Rotational Motion](./problem-sets/P40A_W19_PS8.pdf)
 
 
 ## Physics 40A [References](https://github.com/stepheniota/physics-40a-w19/blob/master/references.md)
